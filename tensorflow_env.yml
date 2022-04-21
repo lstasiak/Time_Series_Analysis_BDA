@@ -1,0 +1,25 @@
+name: tensorflow_macos
+channels:
+    - apple
+    - conda-forge
+dependencies:
+    - python<3.10
+    - pip>=19.0
+    - jupyterlab
+    - tensorflow-deps
+    - tensorflow-datasets
+    - scikit-learn
+    - scipy
+    - numpy
+    - pandas
+    - matplotlib
+    - pillow
+    - tqdm
+    - requests
+    - h5py
+    - pyyaml
+    - torch
+    - plotly
+    - pip:
+        - tensorflow-macos
+        - tensorflow-metal
